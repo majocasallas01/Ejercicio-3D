@@ -27,7 +27,7 @@ public class BallControl : MonoBehaviour
        if (Input.GetKeyDown(KeyCode.A))   
       { 
        if (onGround){
-         Vector3 Fuerza = new Vector3 (fuerza_x,800,0);
+         Vector3 Fuerza = new Vector3 (fuerza_x,100,0);
          GetComponent<Rigidbody>().AddForce(Fuerza);
         }
       }
